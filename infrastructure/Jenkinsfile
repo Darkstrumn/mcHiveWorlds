@@ -4,6 +4,7 @@ pipeline {
         stage('Example') {
             steps {
                 echo 'Hello World!'
+                echo 'This is pipeline change 001'
             }
         }
     }
