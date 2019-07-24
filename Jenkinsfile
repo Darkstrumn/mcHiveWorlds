@@ -9,7 +9,7 @@ pipeline {
                 echo 'This is pipeline change 001'
                 echo 'This is pipeline change 002'
                 echo 'This is pipeline change 003'
-                sh 'echo myCustomEnvVar = $myCuustomEnvVar'
+                sh 'echo myCustomEnvVar = $myCustomEnvVar'
                 sh 'echo otherEnvVar = $otherEnvVar'
             }
         }
